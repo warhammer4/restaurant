@@ -1,0 +1,231 @@
+:root{
+    --prim: #df473a;
+    --sec: #fff8ce;
+    --tert: #413e39;
+    --textColor: #622535;
+    --grad: linear-gradient(#f15f52,#df474a);
+    --font1: 'PT Sans', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+}
+*{box-sizing: border-box;}
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.top-header{
+    color:#fff8ce ;
+    background-color: #df473a;
+}
+.top-nav{
+    margin: 0;
+    padding: 0;
+    color: #fff8ce;
+}
+.top-nav-item{
+    border-right: 1px solid #fff8ce;
+}
+.h1{
+    color: #fff8ce;
+}
+.section1{
+    background-color: #fff8ce;
+}
+.logo, .bottom-logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.top-footer{
+    background-color: #5c5954;
+}
+.bottom-footer{
+    background-color: #413e39;
+}
+.content-header{
+    color:#ebebe9 ;
+}
+.footer{
+    background-color: #413e39;
+}
+.card-title{
+    text-transform: uppercase;
+    color: #df473a;
+    border-right: 1px solid #ebebe9
+}
+.card-text, .about-section{
+    color: #5c5954;
+}
+.text{
+    color: #ededed;
+}
+header{
+    color: #fff8ce;
+}
+.btn-content{
+    background-color: #fff8ce;
+    color: #df473a;
+}
+.section-header {
+    color: firebrick;
+    font-family: var(--font2);
+    font-style: italic;
+    font-weight: 100;
+}
+
+.content-box{
+    border: 1px solid green;
+}
+@media (min-width: 992px){
+    .content-box{
+        width: 75%;
+    }
+    .icon-box{
+        width: 20%;
+    }
+    .content-icon{
+        font-size: 32px;
+        
+    }
+}
+.icon-box{
+    border: 1px solid orange;
+}
+/* .content-icon{
+    font-size: calc(26px +(32 - 26) * );
+} */
+.offer {
+    color: #999e03;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.sub-headerh3{
+    color: #999e03;
+    font-family: var(--font1);
+}
+.content-text{
+    color: red;
+    font-family: var(--font1);
+    font-size: 14px;
+    font-weight: 200;
+}
+.more-link {
+    color: var(--prim);
+    font-family: var(--font2);
+    font-size: 10px;
+}
+.top-footer{
+    background-color: #5c5954;
+}
+.client-list {
+    padding: 20px 0;
+}
+.client-item{
+    border-right: 1px solid #f9f5ea;
+    padding-right: 40px;
+}
+.client-item:last-child {
+    padding-right: 0;
+    border: none;
+}
+.client-link{
+    color: #f9f5ea;
+    text-transform: capitalize;
+}
+@media (max-width: 767px ) {
+    .client-item:nth-child(2) {
+        border: none;
+    }
+    .client-list{
+        justify-content: center;
+    }
+    .client-item {
+        padding: 0 auto;
+    }
+}
+@media (max-width: 991px) {
+    .client-item:nth-child(3) {
+        border: none;
+    }
+}
+.mid-footer {
+    padding: 20px 0;
+    background-color: #5c5954;
+}
+.footerh2{
+    color: #f9f5ea;
+    font-family: var(--font1);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.read-link{
+    color: #f9f5ea;
+}
+.footerh3{
+    margin: 0;
+    padding: 0;
+    color: #f5eedc;
+    font-family: var(--font2);
+}
+.footerh3:last-child{
+    margin-top: 5px;
+}
+.about-text, .blog-text {
+    color: #f5eedc;
+    font-family: var(--font2);
+    font-size: 14px;
+    font-weight: 200;
+
+}
+.blog-text {
+    margin: 0;
+    padding: 0;
+}
+.blog{
+    padding: 15px ;
+}
+#blog1{
+    border-bottom: 1px solid #f5eedc;
+}
+.contact-address{
+    padding-left: 0;
+    list-style-type: none;
+}
+.address-item {
+    color: #f5eedc;
+}
+.email{
+    color: #f9f5ea;
+    line-height: 4;
+}
+.bottom-footer{
+    padding: 30px 0;
+    background-color: #413e39;
+}
+.bottom-logo{
+    font-size: 32px;
+}
+.colophone {
+    margin: 0;
+    padding: 0;
+    color: #f9f5ea;
+}
+/* about page */
+
+.about-blog {
+    padding: 16px;
+    height: 100%;
+    background-color: #fff;
+    text-shadow: 2px 2px 2px #ddd;
+}
+.abouth2 {
+    color: var(--prim);
+    font-family: var(--font1);
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.about-blog-text {
+    color: var(--textColor);
+    font-family: var(--font2);
+    font-size: calc(12px +(16 - 12)* ((100vw - 300px) / (1600 -300)));
+    font-weight: 200;
+}
